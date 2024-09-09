@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Notas</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap">
+</head>
+<body>
+
+    <h1>Cadastro de Alunos</h1> <!-- Adiciona o título do projeto -->
+
+    <form id="formulario">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required><br>
+
+        <label for="rgm">RGM:</label>
+        <input type="text" id="rgm" required><br>
+
+        <label for="nota_parc">Nota Parcial:</label>
+        <input type="number" id="nota_parc" min="0" max="10" required><br>
+
+        <label for="nota_exer">Nota Exercício:</label>
+        <input type="number" id="nota_exer" min="0" max="10" required><br>
+
+        <label for="nota_proj">Nota Projeto:</label>
+        <input type="number" id="nota_proj" min="0" max="10" required><br>
+
+        <label for="nota_regi">Nota Regimental:</label>
+        <input type="number" id="nota_regi" min="0" max="10" required><br>
+
+        <button type="button" id="btnCadastrar">Cadastrar</button>
+        <button type="button" id="btnExibir">Exibir</button>
+        <button type="button" id="btnGerar">Gerar 10 Alunos</button> <!-- Botão para gerar 10 alunos aleatórios -->
+    </form>
+
+    <div id="resposta"></div>
+
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+</html>

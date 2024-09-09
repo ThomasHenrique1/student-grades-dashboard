@@ -1,0 +1,122 @@
+/* Configuração do fundo com gradiente */
+body {
+    font-family: 'Roboto', sans-serif; /* Fonte moderna e limpa */
+    background: linear-gradient(135deg, #0c181c, #416864);
+    color: #fef6cd; /* Cor do texto principal */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para o título do projeto */
+h1 {
+    text-align: center;
+    color: #fef6cd; /* Cor do título */
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif; /* Fonte para o título */
+    font-size: 2.5em; /* Tamanho maior para destaque */
+    font-weight: 700; /* Negrito */
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #212226;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilo dos campos de entrada e botões */
+input, button {
+    display: block;
+    width: calc(100% - 22px);
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #069ea3;
+    font-family: 'Roboto', sans-serif; /* Fonte para entradas e botões */
+}
+
+input {
+    background-color: #3C3D40;
+    color: #fef6cd;
+}
+
+button {
+    background-color: #37cdc4;
+    color: #212226;
+    border: none;
+    cursor: pointer;
+    font-weight: 600; /* Texto em negrito */
+}
+
+button:hover {
+    background-color: #069ea3;
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fef6cd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', sans-serif; /* Fonte moderna e limpa */
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #3C3D40;
+    font-size: 16px; /* Tamanho da fonte das células */
+    font-family: 'Roboto', sans-serif; /* Fonte moderna e limpa */
+}
+
+th {
+    background-color: #37cdc4;
+    color: #212226;
+    font-weight: 700; /* Negrito */
+    text-transform: uppercase; /* Letras maiúsculas */
+}
+
+td {
+    color: #212226; /* Cor do texto das células da tabela */
+}
+
+tr:nth-child(even) {
+    background-color: #e6f2f2; /* Alternar a cor das linhas da tabela */
+}
+
+tr:hover {
+    background-color: #c4e0e5; /* Cor do fundo ao passar o mouse */
+}
+
+/* Estilo para feedback visual de aprovação/reprovação/exame */
+.aprovado {
+    color: #5fba56;
+    font-weight: bold;
+}
+
+.reprovado {
+    color: #d3453f;
+    font-weight: bold;
+}
+
+.exame {
+    color: #FA7F08;
+    font-weight: bold;
+}
+
+/* Adiciona uma borda ao redor das células da tabela */
+table, th, td {
+    border: 1px solid #3C3D40;
+}
+
+/* Adiciona um efeito de borda sutil ao formulário */
+form {
+    border: 1px solid #3C3D40;
+}
